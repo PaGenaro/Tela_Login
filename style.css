@@ -1,0 +1,105 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./Img_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+
+}
+
+header{
+    width: 100%;
+    height:90px;
+    background-color: #14203C;
+}
+
+.container_logo{
+    text-align: center;
+}
+
+
+
+.container_emails{
+    background: rgba(13, 39, 59, 0.8);
+    text-align: center;
+    height: 45vh;
+    color: #ffff;
+    border: 1px solid rgba(13, 39, 59, 0.8);
+}
+
+.container_emails h2{
+    margin-top: 10%;
+}
+.campo_email{
+    margin-top: 35px;
+    
+}
+
+
+form input{
+    color: #ffff;
+    width: 185px;
+    padding-left: 5px;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom:2px solid #02EC98; 
+
+}
+
+ form input::placeholder{
+    color:#02EC98;
+ }
+
+
+ form button{
+    cursor: pointer;
+    background-color: #02EC98;
+    border-color: #02EC98;
+    color: #ffff;
+    width: 80px;
+
+ }
+ 
+
+
+ input:invalid{
+     
+     border: 0;
+     border-bottom:3px solid crimson;
+     
+ }
+
+ input:focus{
+     outline: none;
+ }
+
+ input:focus:invalid{
+     box-shadow: none;
+ }
+
+
+ form span{
+     display: block;
+      color: crimson;
+      margin-left: 40%;
+      width: 130px;
+      height: 20px;
+ }
+
+
+ .lista_email{
+    
+    width: 100%;
+    height: 50vh;
+    background-color: #ffff;
+    margin-top:5% ;
+ }
+
+
+

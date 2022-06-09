@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de E-mails validos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <Header>
+    <figure class="container_logo" >
+        <img src="./logo_badico.png" alt="Logo da empresa Badico com nome da empresa">
+    </figure>
+  </Header>
+  <main>
+    <div class="container_emails">
+     <h2>Validador de E-mails</h2>
+    <form class="campo_email" autocomplete="off">
+      <div class="input-box">
+      <label for="email"></label>
+       <input id="email" type="email" placeholder="Insira o e-mail aqui" name="email" onblur="validarEmail()" onfocus="redefinirMsg()"/>
+       <button value="enviar">Validar</button>
+      </div>
+      <span id="error-email"></span>
+      
+    </form>
+   
+        <section class="lista_email">
+        <ul id="list">
+            <li></li>
+        </ul>
+      </section>
+   
+      </div>
+
+  </main>
+  <script src="scripts.js" ></script>
+</body>
+</html>
