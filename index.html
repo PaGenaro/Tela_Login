@@ -23,32 +23,32 @@
       <div class="input-box">
       <label for="email"></label>
        <input id="email" type="email" placeholder="Insira o e-mail aqui" name="email" onblur="validarEmail()"/>
-       <button value="email.value">Validar</button>
+       <button onclick="addTarefa () "id="btn-add"  class="adc" value="email">Validar</button>
       </div>
       <span id="error-email"></span>
       
     </form>
 
   </div>
-    <!-- Aqui é onde iria por as tabelas com as listas
-
+    
+     
         <div class="lista_email">
-          <table>
+          <table id="areaLista">
             <thead>
               <th class="funcaoemail">Emails Validos</th>
               <th class="funcaoacao">Ação</th>
             </thead>
+
+              <tr id="lista">
+                <td></td>
+                <td>x</td>
+              </tr>
              <tbody id="tbody">
-              
+                
              </tbody>
           </table>
         </div>
 
-    -->
-   
-      
-
-     
 
   </main>
   <script src="index.js" ></script>
