@@ -5,13 +5,12 @@ function validarEmail(){
     var error = document.querySelector('#error-email');
 
     if(!email.checkValidity())
-         { error.innerHTML = "Email inválido";}
+         { error.innerHTML = "Email inválido"}
          
    else{return emailsValidos.push(email)}
-
    }
 
-   console.log(emailsValidos)
+   console.log(emailsValidos);
 
 
     /* Para validar email está ok*/
@@ -46,11 +45,11 @@ function validarEmail(){
 
     input.value ="";
     input.focus();
-    
+
     }
    }
 
-  /* Aqui estava foi a primeira tentativa que não deu certo*/
+  /* Aqui foi a primeira tentativa que não deu certo*/
 
  /*
     class Email{
